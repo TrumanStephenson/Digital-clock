@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('path/to/font.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #000000;
+    color: #00ff00;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#date, #time {
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+
+.date {
+    align-self: center;
+}
+
+.clock {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
